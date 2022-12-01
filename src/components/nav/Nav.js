@@ -1,15 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './nav.css';
-import { AiOutlineHome } from 'react-icons/ai';
-import { AiOutlineUser } from 'react-icons/ai';
+import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
+
 import { BiBook } from 'react-icons/bi';
 import { RiServiceLine } from 'react-icons/ri';
 import { TiContacts } from 'react-icons/ti';
 import { FaRegCommentDots } from 'react-icons/fa';
-import { useState } from 'react';
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#')
+  const [activeNav, setActiveNav] = useState('#');
   return (
     <nav>
       <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome /></a>
@@ -19,7 +18,7 @@ const Nav = () => {
       <a href="#testimonials" onClick={() => setActiveNav('#testimonials')} className={activeNav === '#testimonials' ? 'active' : ''}><FaRegCommentDots /></a>
       <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><TiContacts /></a>
     </nav>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;

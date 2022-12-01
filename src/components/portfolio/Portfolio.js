@@ -80,31 +80,29 @@ const projectsList = [
     sourceLink: 'https://github.com/abiodunraheem/Abiodun-LeaderBoard',
   }];
 
-const Portfolio = () => {
-  return (
-    <section id='portfolio'>
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
-      <div className="portfolio_container">
-        {
-          projectsList.map(({id, image, title, description, spans, skills, liveLink, sourceLink}) => {
-            return (
-              <article key={id} className="portfolio_item">
-                <div className="portfolio_item-image">
-                  <img src={image} alt="title" />
-                </div>
-                <h3>{title}</h3>
-                <div className="portfolio_item-cta">
-                  <a href={sourceLink} target="_blank" rel="noreferrer noopener" className="btn btn-primary">Github</a>
-                  <a href={liveLink} target="_blank" rel="noreferrer noopener" className="btn btn-primary">Live Demo</a>
-                </div>
-              </article>
-            )
-          })
+const Portfolio = () => (
+  <section id="portfolio">
+    <h5>My Recent Work</h5>
+    <h2>Portfolio</h2>
+    <div className="portfolio_container">
+      {
+          projectsList.map(({
+            id, image, title, description, spans, skills, liveLink, sourceLink,
+          }) => (
+            <article key={id} className="portfolio_item">
+              <div className="portfolio_item-image">
+                <img src={image} alt="title" />
+              </div>
+              <h3>{title}</h3>
+              <div className="portfolio_item-cta">
+                <a href={sourceLink} target="_blank" rel="noreferrer noopener" className="btn btn-primary">Github</a>
+                <a href={liveLink} target="_blank" rel="noreferrer noopener" className="btn btn-primary">Live Demo</a>
+              </div>
+            </article>
+          ))
         }
-      </div>
-    </section>
-  )
-}
+    </div>
+  </section>
+);
 
-export default Portfolio
+export default Portfolio;
