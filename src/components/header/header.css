@@ -48,6 +48,21 @@ header {
   /* transform: translateX(-50%); */
 }
 
+.circle1 {
+  width: 10rem;
+  height: 40rem;
+  position: absolute;
+  left: 1%;
+}
+
+.circle2 {
+  width: 10rem;
+  height: 50rem;
+  position: absolute;
+  right: 1%;
+  margin-top: 20rem;
+}
+
 .scroll_down {
   position: absolute;
   right: -2.3rem;
@@ -72,6 +87,11 @@ header {
 
   .header_socials,
   .scroll_down {
+    display: none;
+  }
+
+  .circle1,
+  .circle2 {
     display: none;
   }
 }

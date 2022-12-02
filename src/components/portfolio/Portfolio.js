@@ -12,16 +12,12 @@ const projectsList = [
     id: 1,
     image: budgetApp,
     title: 'Budget App',
-    description: 'My Budget app is a Ruby on Rails application that aims to make the process of tracking my expenses easier. It will hopefully help you too! You will be able to create your account and have all your expenses there.',
-    spans: [
-      'Microverse',
-      'Full Stack Dev',
-      '2022',
-    ],
+    description: 'Budget app is a Ruby on Rails application that allow users keep track of their expenses. It will hopefully help you too! To get started, create an account and keep track of all your expenses.',
     skills: [
-      'Ruby on Rails',
-      'bootstrap',
-      'CSS',
+      'Ruby on Rails ',
+      'bootstrap ',
+      'CSS ',
+      'netlify ',
     ],
     liveLink: 'https://abiodun-budget-app.herokuapp.com/',
     sourceLink: 'https://github.com/abiodunraheem/Budget-app',
@@ -31,17 +27,11 @@ const projectsList = [
     image: bookstore,
     title: 'CMS Bookstore',
     description: 'Book Store is a single page application that allow users to keep track of books coming into the store, and books leaving the store. This project was built with react and redux.',
-    spans: [
-      'Microverse',
-      'Full Stack Dev',
-      '2022',
-    ],
     skills: [
-      'JavaScript',
-      'bootstrap',
-      'RSpec',
-      'CSS',
-      'netlify',
+      'JavaScript ',
+      'React ',
+      'CSS ',
+      'netlify ',
     ],
     liveLink: 'https://react-redux-books.netlify.app/',
     sourceLink: 'https://github.com/abiodunraheem/book-store',
@@ -50,18 +40,12 @@ const projectsList = [
     id: 3,
     image: silverbirdCinemas,
     title: 'Silverbird Cinemas',
-    description: 'Silverbird Cinemas is an application that gives users access to keep track of their favorite movies, by adding comments and likes to any movie of their choice. This application was built with vanilla JavaScript.',
-    spans: [
-      'Microverse',
-      'Front End Dev',
-      '2022',
-    ],
+    description: 'Silverbird Cinemas is an application that gives users access to keep track of their favorite movies, by adding comments and likes to any movie of their choice.',
     skills: [
-      'JavaScript',
-      'CSS',
-      'Jest',
-      'Movie-API',
-      'Netlify',
+      'JavaScript ',
+      'CSS ',
+      'Movie-API ',
+      'Netlify ',
     ],
     liveLink: 'https://abiodunraheem.github.io/Silverbird-Cinemas/',
     sourceLink: 'https://github.com/abiodunraheem/Silverbird-Cinemas',
@@ -71,17 +55,11 @@ const projectsList = [
     image: bookDoctor,
     title: 'Silverbird Cinemas',
     description: 'Silverbird Cinemas is an application that gives users access to keep track of their favorite movies, by adding comments and likes to any movie of their choice. This application was built with vanilla JavaScript.',
-    spans: [
-      'Microverse',
-      'Front End Dev',
-      '2022',
-    ],
     skills: [
-      'JavaScript',
-      'CSS',
-      'Jest',
-      'Movie-API',
-      'Netlify',
+      'JavaScript ',
+      'CSS ',
+      'Movie-API ',
+      'Netlify ',
     ],
     liveLink: 'https://abiodunraheem.github.io/Silverbird-Cinemas/',
     sourceLink: 'https://github.com/abiodunraheem/Silverbird-Cinemas',
@@ -91,17 +69,11 @@ const projectsList = [
     image: doctor,
     title: 'Silverbird Cinemas',
     description: 'Silverbird Cinemas is an application that gives users access to keep track of their favorite movies, by adding comments and likes to any movie of their choice. This application was built with vanilla JavaScript.',
-    spans: [
-      'Microverse',
-      'Front End Dev',
-      '2022',
-    ],
     skills: [
-      'JavaScript',
-      'CSS',
-      'Jest',
-      'Movie-API',
-      'Netlify',
+      'JavaScript ',
+      'CSS ',
+      'Movie-API ',
+      'Netlify ',
     ],
     liveLink: 'https://abiodunraheem.github.io/Silverbird-Cinemas/',
     sourceLink: 'https://github.com/abiodunraheem/Silverbird-Cinemas',
@@ -110,15 +82,10 @@ const projectsList = [
     id: 6,
     image: leaderboard,
     title: 'Abiodun Leader Board',
-    description: 'Abiodun Leader Board is a game that returns the highest scores each time the game is played.',
-    spans: [
-      'Microverse',
-      'Front End Dev',
-      '2022',
-    ],
+    description: 'Abiodun Leader Board is a game built with vanilla JavaScript, it returns the highest scores each time the game is played.',
     skills: [
-      'HTML',
-      'CSS',
+      'HTML  ',
+      'CSS  ',
       'JavaScript',
     ],
     liveLink: 'https://abiodunraheem.github.io/Abiodun-LeaderBoard/',
@@ -132,17 +99,16 @@ const Portfolio = () => (
     <div className="portfolio_container">
       {
           projectsList.map(({
-            id, image, title, description, spans, skills, liveLink, sourceLink,
+            id, image, title, description, skills, liveLink, sourceLink,
           }) => (
             <article key={id} className="portfolio_item">
               <div className="portfolio_item-image">
-                <img src={image} alt="title" />
+                <img src={image} alt="Project" />
               </div>
               <h3>{title}</h3>
-              <p>{description}</p>
+              <p className="text-light">{description}</p>
               <div>
-                <small>{skills}</small>
-                <spans>{spans}</spans>
+                <small className="portfolio_skills">{skills}</small>
               </div>
               <div className="portfolio_item-cta">
                 <a href={sourceLink} target="_blank" rel="noreferrer noopener" className="btn btn-primary">Github</a>

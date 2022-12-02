@@ -36,12 +36,11 @@ const About = () => (
           </article>
         </div>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          Repudiandae temporibus cum tempore obcaecati ex quis consectetur,
-          est magni natus aspernatur, repellat beatae, amet asperiores.
-          Beatae necessitatibus vero animi fugiat reprehenderit?
+          I’m a software developer! I can help you build a product,
+          feature or website. Look through some of my work and experience!
+          If you like what you see, and have a project you need code, don’t hesitate to contact me.
         </p>
-        <a href="#contact" className="btn btn-primary">Lets Talk</a>
+        <a href="#contact" className="btn btn-primary">Let&#39;s Talk</a>
       </div>
     </div>
   </section>
