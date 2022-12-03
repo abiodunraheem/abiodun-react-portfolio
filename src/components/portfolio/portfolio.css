@@ -28,7 +28,9 @@
 
 .portfolio_skills {
   display: flex;
+
   /* word-spacing: 1rem; */
+
   /* gap: 1.5rem; */
   color: #6070ff;
   flex-direction: row;

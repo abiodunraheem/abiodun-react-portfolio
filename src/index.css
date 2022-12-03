@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Poppins:wght@300;400;500;600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +8,10 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 :root {
@@ -24,10 +29,6 @@
 
 html {
   scroll-behavior: smooth;
-}
-
-::-webkit-scrollbar {
-  display: none;
 }
 
 body {
@@ -57,7 +58,7 @@ h5 {
 }
 
 h1 {
-  font-weight: 2.5rem;
+  font-size: 2.5rem;
 }
 
 section {
