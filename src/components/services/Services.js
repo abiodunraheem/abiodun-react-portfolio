@@ -9,95 +9,38 @@ const Services = () => (
     <div className="container services_container">
       <article className="service">
         <div className="service_head">
-          <h3>UI/UX Design</h3>
+          <h3>Educational Services</h3>
         </div>
 
         <ul className="service_list">
           <li>
             <SlCheck className="service_list-icon" />
             <p>
-              Lorem ipsum dolor sit amet.
+              Website Creation and Maintenance services
             </p>
           </li>
           <li>
             <SlCheck className="service_list-icon" />
             <p>
-              Lorem ipsum dolor sit amet.
+              Update teaching materials
             </p>
           </li>
           <li>
             <SlCheck className="service_list-icon" />
             <p>
-              Lorem ipsum dolor sit amet.
+              Web Development Bootcamp
             </p>
           </li>
           <li>
             <SlCheck className="service_list-icon" />
             <p>
-              Lorem ipsum dolor sit amet.
+              Continuous support and evolution
             </p>
           </li>
           <li>
             <SlCheck className="service_list-icon" />
             <p>
-              Lorem ipsum dolor sit amet.
-            </p>
-          </li>
-          <li>
-            <SlCheck className="service_list-icon" />
-            <p>
-              Lorem ipsum dolor sit amet.
-            </p>
-          </li>
-        </ul>
-      </article>
-
-      <article className="service">
-        <div className="service_head">
-          <h3>Content Creation</h3>
-        </div>
-
-        <ul className="service_list">
-          <li>
-            <SlCheck className="service_list-icon" />
-            <p>
-              Lorem ipsum dolor sit amet.
-            </p>
-          </li>
-          <li>
-            <SlCheck className="service_list-icon" />
-            <p>
-              Lorem ipsum dolor sit amet.
-            </p>
-          </li>
-          <li>
-            <SlCheck className="service_list-icon" />
-            <p>
-              Lorem ipsum dolor sit amet.
-            </p>
-          </li>
-          <li>
-            <SlCheck className="service_list-icon" />
-            <p>
-              Lorem ipsum dolor sit amet.
-            </p>
-          </li>
-          <li>
-            <SlCheck className="service_list-icon" />
-            <p>
-              Lorem ipsum dolor sit amet.
-            </p>
-          </li>
-          <li>
-            <SlCheck className="service_list-icon" />
-            <p>
-              Lorem ipsum dolor sit amet.
-            </p>
-          </li>
-          <li>
-            <SlCheck className="service_list-icon" />
-            <p>
-              Lorem ipsum dolor sit amet.
+              Teaching the 21st century learner
             </p>
           </li>
         </ul>
@@ -112,37 +55,100 @@ const Services = () => (
           <li>
             <SlCheck className="service_list-icon" />
             <p>
-              Lorem ipsum dolor sit amet.
+              Fron-end designs and development
             </p>
           </li>
           <li>
             <SlCheck className="service_list-icon" />
             <p>
-              Lorem ipsum dolor sit amet.
+              Back-end development
             </p>
           </li>
           <li>
             <SlCheck className="service_list-icon" />
             <p>
-              Lorem ipsum dolor sit amet.
+              Ecommerce
             </p>
           </li>
           <li>
             <SlCheck className="service_list-icon" />
             <p>
-              Lorem ipsum dolor sit amet.
+              Web apps
             </p>
           </li>
           <li>
             <SlCheck className="service_list-icon" />
             <p>
-              Lorem ipsum dolor sit amet.
+              Product building
             </p>
           </li>
           <li>
             <SlCheck className="service_list-icon" />
             <p>
-              Lorem ipsum dolor sit amet.
+              Portfolio
+            </p>
+          </li>
+          <li>
+            <SlCheck className="service_list-icon" />
+            <p>
+              Websites and hosting
+            </p>
+          </li>
+          <li>
+            <SlCheck className="service_list-icon" />
+            <p>
+              Hosting
+            </p>
+          </li>
+        </ul>
+      </article>
+
+      <article className="service">
+        <div className="service_head">
+          <h3>Social Media Management</h3>
+        </div>
+
+        <ul className="service_list">
+          <li>
+            <SlCheck className="service_list-icon" />
+            <p>
+              Content creation
+            </p>
+          </li>
+          <li>
+            <SlCheck className="service_list-icon" />
+            <p>
+              Copywriting
+            </p>
+          </li>
+          <li>
+            <SlCheck className="service_list-icon" />
+            <p>
+              Content creation
+            </p>
+          </li>
+          <li>
+            <SlCheck className="service_list-icon" />
+            <p>
+              Writing blog post
+            </p>
+          </li>
+          <li>
+            <SlCheck className="service_list-icon" />
+            <p>
+              Education and consulting
+            </p>
+          </li>
+          <li>
+            <SlCheck className="service_list-icon" />
+            <p>
+              Content writing
+            </p>
+          </li>
+          <li>
+            <SlCheck className="service_list-icon" />
+            <p>
+              Technical writing
             </p>
           </li>
         </ul>
