@@ -3,24 +3,24 @@ import './portfolio.css';
 import budgetApp from '../../assets/budgetApp.jpeg';
 import bookstore from '../../assets/bookstore.jpeg';
 import silverbirdCinemas from '../../assets/silverbirdCinemas.jpeg';
-import bookDoctor from '../../assets/bookDoctor.png';
+import space from '../../assets/space.png';
 import doctor from '../../assets/doctor.png';
 import leaderboard from '../../assets/leaderboard.jpeg';
 
 const projectsList = [
   {
     id: 1,
-    image: budgetApp,
-    title: 'Budget App',
-    description: 'Budget app is a Ruby on Rails application that allow users keep track of their expenses. It will hopefully help you too! To get started, create an account and keep track of all your expenses.',
+    image: space,
+    title: 'Space Travellers Hub',
+    description: 'Space travelers hub is a project that make use of react and redux, to develop a space rocket and mission, which allows travelers to book and cancel reservation.',
     skills: [
-      'Ruby on Rails ',
-      'bootstrap ',
+      'JavaScript ',
       'CSS ',
-      'netlify ',
+      'React ',
+      'Netlify ',
     ],
-    liveLink: 'https://abiodun-budget-app.herokuapp.com/',
-    sourceLink: 'https://github.com/abiodunraheem/Budget-app',
+    liveLink: 'https://github.com/abiodunraheem/space-travelers-hub',
+    sourceLink: 'https://github.com/abiodunraheem/space-travelers-hub',
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ const projectsList = [
       'JavaScript ',
       'React ',
       'CSS ',
-      'netlify ',
+      'Netlify ',
     ],
     liveLink: 'https://react-redux-books.netlify.app/',
     sourceLink: 'https://github.com/abiodunraheem/book-store',
@@ -52,31 +52,32 @@ const projectsList = [
   },
   {
     id: 4,
-    image: bookDoctor,
-    title: 'Silverbird Cinemas',
-    description: 'Silverbird Cinemas is an application that gives users access to keep track of their favorite movies, by adding comments and likes to any movie of their choice. This application was built with vanilla JavaScript.',
+    image: budgetApp,
+    title: 'Budget App',
+    description: 'Budget app is a Ruby on Rails application that allow users keep track of their expenses. It will hopefully help you too! To get started, create an account and log in to keep track of all expenses.',
     skills: [
-      'JavaScript ',
+      'RubyOnRails ',
+      'Bootstrap ',
       'CSS ',
-      'Movie-API ',
       'Netlify ',
     ],
-    liveLink: 'https://abiodunraheem.github.io/Silverbird-Cinemas/',
-    sourceLink: 'https://github.com/abiodunraheem/Silverbird-Cinemas',
+    liveLink: 'https://abiodun-budget-app.herokuapp.com/',
+    sourceLink: 'https://github.com/abiodunraheem/Budget-app',
   },
   {
     id: 5,
     image: doctor,
-    title: 'Silverbird Cinemas',
-    description: 'Silverbird Cinemas is an application that gives users access to keep track of their favorite movies, by adding comments and likes to any movie of their choice. This application was built with vanilla JavaScript.',
+    title: 'Book A Doctor Appointment',
+    description: 'This application enables users to book an appointment a Doctor, all you need to do is login, then book a reservation, and check all your reservations to update or delete.',
     skills: [
+      'React ',
       'JavaScript ',
       'CSS ',
-      'Movie-API ',
+      'RubyOnRails ',
       'Netlify ',
     ],
-    liveLink: 'https://abiodunraheem.github.io/Silverbird-Cinemas/',
-    sourceLink: 'https://github.com/abiodunraheem/Silverbird-Cinemas',
+    liveLink: 'https://github.com/abiodunraheem/book-an-appointment-with-a-doctor-frontend',
+    sourceLink: 'https://github.com/abiodunraheem/book-an-appointment-with-a-doctor-frontend',
   },
   {
     id: 6,
@@ -86,7 +87,8 @@ const projectsList = [
     skills: [
       'HTML  ',
       'CSS  ',
-      'JavaScript',
+      'JavaScript ',
+      'Netlify',
     ],
     liveLink: 'https://abiodunraheem.github.io/Abiodun-LeaderBoard/',
     sourceLink: 'https://github.com/abiodunraheem/Abiodun-LeaderBoard',

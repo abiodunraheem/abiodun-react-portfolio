@@ -32,7 +32,8 @@
   /* gap: 1.5rem; */
   color: #6070ff;
   flex-direction: row;
-  /* margin: 1.2rem 0 2rem; */
+  margin: 1rem 0 1rem;
+  word-spacing: 1rem;
 }
 
 .portfolio_item-cta {

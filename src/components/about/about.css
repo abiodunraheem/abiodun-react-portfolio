@@ -17,6 +17,7 @@
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(10deg);
+  height: 100%;
   transition: var(--transition);
 }
 
@@ -69,6 +70,7 @@
 @media screen and (max-width: 1024px) {
   .about_container {
     grid-template-columns: 1fr;
+    place-items: center;
     gap: 0;
   }
 

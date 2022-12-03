@@ -2,12 +2,12 @@ import React from 'react';
 import './testimonials.css';
 import { Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import me from '../../assets/me.JPG';
-import we from '../../assets/we.jpg';
-import bless from '../../assets/bless.JPG';
-import sand from '../../assets/sand.JPG';
-import tee from '../../assets/tee.jpg';
-import olive from '../../assets/olive.jpg';
+import drSarah from '../../assets/drSarah.png';
+import olive from '../../assets/olive.jpeg';
+import blessing from '../../assets/blessing.JPG';
+import sandra from '../../assets/sandra.JPG';
+import bizip from '../../assets/bizip.jpeg';
+import julius from '../../assets/julius.jpeg';
 
 // import Swiper core and required modules
 
@@ -17,39 +17,45 @@ import 'swiper/css/pagination';
 
 const testimonials = [
   {
-    avatar: me,
-    name: 'Sandy Mills',
-    review: 'My Budget app is a Ruby on Rails application that aims to make the process of tracking my expenses easier. It will hopefully help you too! You will be able to create your account and have all your expenses there.',
+    avatar: drSarah,
+    name: 'Sarah Goodness',
+    review: 'Excellen service, quick response, efficient troubleshooting and resolution with full explanation of the problem. I always rave over your high standards that you have maintained over the years.',
+    organisation: '~Financial Designs',
   },
   {
-    avatar: we,
-    name: 'Abbey Loyd',
-    review: 'My Budget app is a Ruby on Rails application that aims to make the process of tracking my expenses easier. It will hopefully help you too! You will be able to create your account and have all your expenses there.',
+    avatar: julius,
+    name: 'Oyeniyi Julius',
+    review: 'It has been a pleasure working with you and your team, you guys are fantastic, thank you for being there always.',
+    organisation: '~Four0Four Studios',
   },
   {
-    avatar: sand,
-    name: 'Chike Dike',
-    review: 'My Budget app is a Ruby on Rails application that aims to make the process of tracking my expenses easier. It will hopefully help you too! You will be able to create your account and have all your expenses there.',
+    avatar: blessing,
+    name: 'Okhani Blessing',
+    review: 'Always dependable, reliable and fast, even after I leave for the day, I can always count on you guys to get the job done. Thank you!',
+    organisation: '~Classic Fashion School',
+  },
+  {
+    avatar: sandra,
+    name: 'Sandra Payne',
+    review: 'The custom reports you wrote have been very helpful. I appreciate every bit of your effort, you even gave me a deep insight on how to write. I look forward to writing programs for you one of these days.',
+    organisation: '~SandyPayn Management Group',
+  },
+  {
+    avatar: bizip,
+    name: 'Flowra Sorch',
+    review: 'I just want to let you know that the last product you build was absolutely fantastic, our income increased by 20% in our first quarter analysis, thank you so much as i look forward to a more fruitful and lasting relationship with you and your team.',
+    organisation: '~Bisimungul Technologies',
   },
   {
     avatar: olive,
-    name: 'Roy Kean',
-    review: 'My Budget app is a Ruby on Rails application that aims to make the process of tracking my expenses easier. It will hopefully help you too! You will be able to create your account and have all your expenses there.',
-  },
-  {
-    avatar: tee,
-    name: 'Flowra Sorch',
-    review: 'My Budget app is a Ruby on Rails application that aims to make the process of tracking my expenses easier. It will hopefully help you too! You will be able to create your account and have all your expenses there.',
-  },
-  {
-    avatar: bless,
     name: 'Mick Mills',
-    review: 'My Budget app is a Ruby on Rails application that aims to make the process of tracking my expenses easier. It will hopefully help you too! You will be able to create your account and have all your expenses there.',
+    review: 'The exchange project was perfect. The SM and MS are wonderful, it perfectly fit into different screen sizes. Users reviews has been amazing, thank you for the great job.',
+    organisation: '~Perfect Touch Inc.',
   }];
 
 const Testimonials = () => (
   <section id="testimonials">
-    <h5>Review from clients</h5>
+    <h5>Review From Clients</h5>
     <h2>Testimonials</h2>
 
     <Swiper
@@ -62,14 +68,17 @@ const Testimonials = () => (
       pagination={{ clickable: true }}
     >
       {
-          testimonials.map(({ avatar, name, review }, index) => (
+          testimonials.map(({
+            avatar, name, review, organisation,
+          }, index) => (
             // eslint-disable-next-line react/no-array-index-key
             <SwiperSlide key={index} className="testimonial">
               <div className="client_avatar">
                 <img src={avatar} alt="avatar one" />
               </div>
-              <h5 className="client_name">{name}</h5>
+              <h4 className="client_name">{name}</h4>
               <small className="client_review">{review}</small>
+              <h5 className="text-dark">{organisation}</h5>
             </SwiperSlide>
           ))
         }

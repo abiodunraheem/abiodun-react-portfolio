@@ -3,17 +3,17 @@ import './about.css';
 import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
 import { VscFolderActive } from 'react-icons/vsc';
-import ME from '../../assets/me.JPG';
+import abiodun from '../../assets/abiodun.jpg';
 
 const About = () => (
   <section id="about">
-    <h5>Get to know</h5>
-    <h2>About me</h2>
+    <h5>Get To Know</h5>
+    <h2>About Me</h2>
 
     <div className="container about_container">
       <div className="about_me">
         <div className="about_me-image">
-          <img src={ME} alt="About me" />
+          <img src={abiodun} alt="About me" />
         </div>
       </div>
 
@@ -40,7 +40,7 @@ const About = () => (
           feature or website. Look through some of my work and experience!
           If you like what you see, and have a project you need code, don’t hesitate to contact me.
         </p>
-        <a href="#contact" className="btn btn-primary">Let&#39;s Talk</a>
+        <a href="#contact" className="btn btn-primary">Let&#39;s talk</a>
       </div>
     </div>
   </section>
