@@ -4,7 +4,7 @@ import budgetApp from '../../assets/budgetApp.jpeg';
 import bookstore from '../../assets/bookstore.jpeg';
 import silverbirdCinemas from '../../assets/silverbirdCinemas.jpeg';
 import space from '../../assets/space.png';
-import doctor from '../../assets/doctor.png';
+import music from '../../assets/music.png';
 import leaderboard from '../../assets/leaderboard.jpeg';
 
 const projectsList = [
@@ -19,7 +19,7 @@ const projectsList = [
       'React ',
       'Netlify ',
     ],
-    liveLink: 'https://github.com/abiodunraheem/space-travelers-hub',
+    liveLink: 'https://spacetra.netlify.app/',
     sourceLink: 'https://github.com/abiodunraheem/space-travelers-hub',
   },
   {
@@ -59,25 +59,23 @@ const projectsList = [
       'RubyOnRails ',
       'Bootstrap ',
       'CSS ',
-      'Netlify ',
+      'Heroku ',
     ],
     liveLink: 'https://abiodun-budget-app.herokuapp.com/',
     sourceLink: 'https://github.com/abiodunraheem/Budget-app',
   },
   {
     id: 5,
-    image: doctor,
-    title: 'Book A Doctor Appointment',
-    description: 'This application enables users to book an appointment a Doctor, all you need to do is login, then book a reservation, and check all your reservations to update or delete.',
+    image: music,
+    title: 'Global Muzik Event',
+    description: 'Global Music Event is a responsive website that was built with HTML, CSS & Javascript. It displays a landing page, previous music events, and a link to book a seat at the event centre.',
     skills: [
-      'React ',
-      'JavaScript ',
+      'HTML ',
       'CSS ',
-      'RubyOnRails ',
-      'Netlify ',
+      'JavaScript ',
     ],
-    liveLink: 'https://github.com/abiodunraheem/book-an-appointment-with-a-doctor-frontend',
-    sourceLink: 'https://github.com/abiodunraheem/book-an-appointment-with-a-doctor-frontend',
+    liveLink: 'https://abiodunraheem.github.io/First-Capstone-Project/',
+    sourceLink: 'https://github.com/abiodunraheem/First-Capstone-Project',
   },
   {
     id: 6,
