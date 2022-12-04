@@ -16,7 +16,6 @@ It is a shows my understanding of Gitflow, use of Linters, semantics, CSS3 flexb
 - Figma
 
 ## Live Demo
-Live site URL to portfolio
 [Live Demo Link]()
 
 
