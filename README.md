@@ -1,24 +1,19 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# PERSONAL PORTFOLIO
+# PERSONAL PORTFOLIO WITH REACT
 
-> A "portfolio" HTML-5 & CSS3 repository built during the portal learning module.
 
-![screenshot]()
-![screenshot]()
-![screenshot]()
+This project was built using React, JavaScript and CSS.
 
-It is a show of my understanding of Gitflow, use of Linters, HTML5 semantics, CSS3 flexbox, react and figma.
+It is a shows my understanding of Gitflow, use of Linters, semantics, CSS3 flexbox, react and figma.
 
 ## Built With
 
-- HTML-5
 - CSS3
 - JavacriptReact
 - React
 - Linters
 - Figma
-- Formspree - form data handler
 
 ## Live Demo
 Live site URL to portfolio
@@ -26,9 +21,25 @@ Live site URL to portfolio
 
 
 ## Getting Started
+To get a local copy up and running follow these simple example steps.
 
+In your terminal, navigate to your current directory and run this code
 
-- To get a local copy up and running follow these simple example steps.
+`https://github.com/abiodunraheem/abiodun-react-portfolio`
+
+Locate the directory in your file explorer
+
+`cd abiodun-react-portfolio`
+
+Install all packages and dependencies using:
+
+`npm install`
+
+Start the web dev server depending on your configuration
+
+`npm start`
+
+The Project should now be live on your browser
 
 ### Prerequisites
 
@@ -44,12 +55,11 @@ Live site URL to portfolio
 - git clone git@github.com:abiodunraheem/abiodun-react-portfolio.git.
 
 
-### Run tests
-
-- To run tests run :
-- npx hint .
-- npx stylelint "**/*.{css,scss}"
-
+## Tests
+To run your tests you can run:
+- `npm test` for unit tests with the React testing library & Jest
+- `npx eslint .` for all your JavaScript based linter checks
+- `npx stylelint "**/*.{css,scss}"` for all your CSS based linter checks
 ### Deployment
 
 - Project is deployed using
@@ -76,7 +86,7 @@ Feel free to check the [issues page](https://github.com/abiodunraheem/abiodun-re
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-Major thanks to [Jonathan Sivahera](https://twitter.com/jsivahera)
+Major thanks to [EGATOR](https://twitter.com/egator)
 
 
 ## 📝 License
