@@ -30,7 +30,7 @@ const Contact = () => {
           <article className="contact_option">
             <BiMessageCheck className="contact_option-icon" />
             <h4>Messanger</h4>
-            <h5>AbbeyShammer</h5>
+            <h5>Abiodunraheem</h5>
             <a href="https://m.me/abiodunraheem" target="_blank" rel="noreferrer">Send a message</a>
           </article>
           <article className="contact_option">
