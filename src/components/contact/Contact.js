@@ -30,14 +30,14 @@ const Contact = () => {
           <article className="contact_option">
             <BiMessageCheck className="contact_option-icon" />
             <h4>Messanger</h4>
-            <h5>Abiodunraheem</h5>
+            <h5>Abiodun Raheem</h5>
             <a href="https://m.me/abiodunraheem" target="_blank" rel="noreferrer">Send a message</a>
           </article>
           <article className="contact_option">
             <ImWhatsapp className="contact_option-icon" />
             <h4>Whatsapp</h4>
             <h5>+2348060165838</h5>
-            <a href="https://api.whatsapp.com/send?phone=+2348060165838" target="_blank" rel="noreferrer">Chart me</a>
+            <a href="https://api.whatsapp.com/send?phone=+2348060165838" target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
         {/* end of contactact details */}

@@ -60,13 +60,6 @@ const Experience = () => (
           <article className="experience_details">
             <MdLibraryAddCheck className="experience_details-icon" />
             <div>
-              <h4>Ruby</h4>
-              <small className="text-light">Intermediate</small>
-            </div>
-          </article>
-          <article className="experience_details">
-            <MdLibraryAddCheck className="experience_details-icon" />
-            <div>
               <h4>Ruby On Rails</h4>
               <small className="text-light">Intermediate</small>
             </div>
@@ -74,8 +67,8 @@ const Experience = () => (
           <article className="experience_details">
             <MdLibraryAddCheck className="experience_details-icon" />
             <div>
-              <h4>SQL</h4>
-              <small className="text-light">Basic</small>
+              <h4>Ruby</h4>
+              <small className="text-light">Intermediate</small>
             </div>
           </article>
           <article className="experience_details">
@@ -88,7 +81,7 @@ const Experience = () => (
           <article className="experience_details">
             <MdLibraryAddCheck className="experience_details-icon" />
             <div>
-              <h4>Python</h4>
+              <h4>SQL</h4>
               <small className="text-light">Basic</small>
             </div>
           </article>
@@ -96,6 +89,13 @@ const Experience = () => (
             <MdLibraryAddCheck className="experience_details-icon" />
             <div>
               <h4>MongoDB</h4>
+              <small className="text-light">Basic</small>
+            </div>
+          </article>
+          <article className="experience_details">
+            <MdLibraryAddCheck className="experience_details-icon" />
+            <div>
+              <h4>Python</h4>
               <small className="text-light">Basic</small>
             </div>
           </article>

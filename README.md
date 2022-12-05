@@ -16,7 +16,7 @@ It is a shows my understanding of Gitflow, use of Linters, semantics, CSS3 flexb
 - Figma
 
 ## Live Demo
-[Live Demo Link]()
+[Live Demo Link](https://abiodun-portfolio.netlify.app/)
 
 
 ## Getting Started
