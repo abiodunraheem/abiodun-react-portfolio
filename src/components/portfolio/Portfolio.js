@@ -68,7 +68,7 @@ const projectsList = [
     id: 5,
     image: music,
     title: 'Global Muzik Event',
-    description: 'Global Music Event is a responsive website that was built with HTML, CSS & Javascript. It displays a landing page, previous music events, and a link to book a seat at the event centre.',
+    description: 'Global Muzik Event is a responsive website that was built with HTML, CSS & Javascript. It displays a landing page, previous music events, and a link to book a seat at the event.',
     skills: [
       'HTML ',
       'CSS ',
