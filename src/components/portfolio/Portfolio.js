@@ -1,6 +1,6 @@
 import React from 'react';
 import './portfolio.css';
-import budgetApp from '../../assets/budgetApp.jpeg';
+import tour from '../../assets/tour.png';
 import bookstore from '../../assets/bookstore.jpeg';
 import silverbirdCinemas from '../../assets/silverbirdCinemas.jpeg';
 import space from '../../assets/space.png';
@@ -10,17 +10,17 @@ import leaderboard from '../../assets/leaderboard.jpeg';
 const projectsList = [
   {
     id: 1,
-    image: space,
-    title: 'Space Travellers Hub',
-    description: 'Space travelers hub is a project that make use of react and redux, to develop a space rocket and mission, which allows travelers to book and cancel reservation.',
+    image: tour,
+    title: 'Tour Management App',
+    description: 'Tour management app is an app that enables tourist to book tours from across the world. It was built React, Mongodb, Express, Nodejs and Reactraps.',
     skills: [
-      'JavaScript ',
-      'CSS ',
+      'Express ',
+      'MongoDB ',
       'React ',
-      'Netlify ',
+      'Nodejs ',
     ],
-    liveLink: 'https://spacetra.netlify.app/',
-    sourceLink: 'https://github.com/abiodunraheem/space-travelers-hub',
+    liveLink: 'https://tour-management-app.netlify.app/',
+    sourceLink: 'https://github.com/abiodunraheem/MernStack-Tour-Management/tree/project-startup/tour-management',
   },
   {
     id: 2,
@@ -38,6 +38,20 @@ const projectsList = [
   },
   {
     id: 3,
+    image: space,
+    title: 'Space Travellers Hub',
+    description: 'Space travelers hub is a project that make use of react and redux, to develop a space rocket and mission, which allows travelers to book and cancel reservation.',
+    skills: [
+      'JavaScript ',
+      'CSS ',
+      'React ',
+      'Netlify ',
+    ],
+    liveLink: 'https://spacetra.netlify.app/',
+    sourceLink: 'https://github.com/abiodunraheem/space-travelers-hub',
+  },
+  {
+    id: 4,
     image: silverbirdCinemas,
     title: 'Silverbird Cinemas',
     description: 'Silverbird Cinemas is an application that gives users access to keep track of their favorite movies, by adding comments and likes to any movie of their choice.',
@@ -51,24 +65,10 @@ const projectsList = [
     sourceLink: 'https://github.com/abiodunraheem/Silverbird-Cinemas',
   },
   {
-    id: 4,
-    image: budgetApp,
-    title: 'Budget App',
-    description: 'Budget app is a Ruby on Rails application that allow users keep track of their expenses. It will hopefully help you too! To get started, create an account and log in to keep track of all expenses.',
-    skills: [
-      'RubyOnRails ',
-      'Bootstrap ',
-      'CSS ',
-      'Heroku ',
-    ],
-    liveLink: 'https://abiodun-budget-app.herokuapp.com/',
-    sourceLink: 'https://github.com/abiodunraheem/Budget-app',
-  },
-  {
     id: 5,
     image: music,
     title: 'Global Muzik Event',
-    description: 'Global Music Event is a responsive website that was built with HTML, CSS & Javascript. It displays a landing page, previous music events, and a link to book a seat at the event centre.',
+    description: 'Global Muzik Event is a responsive website that was built with HTML, CSS & Javascript. It displays a landing page, previous music events, and a link to book a seat at the event.',
     skills: [
       'HTML ',
       'CSS ',
